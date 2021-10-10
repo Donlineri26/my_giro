@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>index</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+    <div class="head" id="head">
+        <div class="svg_logo"><img src="img/logo.svg" height="95" width="319" alt="logo"></div>
+	<div class="headContent">
+	    <p class="phone">8-(800)-853-53-53</p>
+	    <input type="button" class="phone_but" value="Заказать звонок">
+	</div>
+    </div>
+    <div class="main">
+	<input class="slider1" name="slider" type="radio" id="slider1" value="slider1">
+	<input class="slider2" name="slider" type="radio" id="slider2" value="slider2" checked>
+	<input class="slider3" name="slider" type="radio" id="slider3" value="slider3">
+        <div class="slider">
+	    <p class="sliderHead">Быстро, качественно, надежно</p>
+	    <div class="sliderButton slider1Button">
+		<label for="slider3" class="sliderView"></label>
+		<label for="slider2" class="sliderView"></label>
+	    </div>
+	    <div class="sliderButton slider2Button">
+		<label for="slider1" class="sliderView"></label>
+		<label for="slider3" class="sliderView"></label>
+	    </div>
+	    <div class="sliderButton slider3Button">
+		<label for="slider2" class="sliderView"></label>
+		<label for="slider1" class="sliderView"></label>
+	    </div>
+	</div>
+	<!--div.listOsoben>(div.itemOsoben>p.headTxtItem+div.txt>(div.txtItem>(p.txtItemMaster>{Потому что 1})+p.txtItemSlave>{Потому что 1, Потому что 1, Потому что 1, Потому что 1...})*3)*3-->
+	<div class="listOsoben">
+	    <div class="itemOsoben">
+		<p class="headTxtItem">Почему<br>гироскутер</p>
+	        <div class="txt">
+	            <div class="txtItem">
+	                <p class="txtItemMaster">
+	                    Потому что 1
+	                </p>
+	                <p class="txtItemSlave">
+	                    Потому что 1, Потому что 1, <br>Потому что 1, Потому что 1...
+	                </p>
+	            </div>
+	            <div class="txtItem">
+	                <p class="txtItemMaster">
+	                    Потому что 1
+	                </p>
+	                <p class="txtItemSlave">
+	                    Потому что 1, Потому что 1, <br>Потому что 1, Потому что 1...
+	                </p>
+	            </div>
+	            <div class="txtItem">
+	                <p class="txtItemMaster">
+	                    Потому что 1
+	                </p>
+	                <p class="txtItemSlave">
+	                    Потому что 1, Потому что 1, <br>Потому что 1, Потому что 1...
+	                </p>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="itemOsoben itemOsobenO">
+		<p class="headTxtItem">Почему<br>электросамокат</p>
+	        <div class="txt">
+	            <div class="txtItem">
+	                <p class="txtItemMaster">
+	                    Потому что 1
+	                </p>
+	                <p class="txtItemSlave">
+	                    Потому что 1, Потому что 1, <br>Потому что 1, Потому что 1...
+	                </p>
+	            </div>
+	            <div class="txtItem">
+	                <p class="txtItemMaster">
+	                    Потому что 1
+	                </p>
+	                <p class="txtItemSlave">
+	                    Потому что 1, Потому что 1, <br>Потому что 1, Потому что 1...
+	                </p>
+	            </div>
+	            <div class="txtItem">
+	                <p class="txtItemMaster">
+	                    Потому что 1
+	                </p>
+	                <p class="txtItemSlave">
+	                    Потому что 1, Потому что 1, <br>Потому что 1, Потому что 1...
+	                </p>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="itemOsoben">
+		<p class="headTxtItem">Почему<br>сигвей</p>
+	        <div class="txt">
+	            <div class="txtItem">
+	                <p class="txtItemMaster">
+	                    Потому что 1
+	                </p>
+	                <p class="txtItemSlave">
+	                    Потому что 1, Потому что 1, <br>Потому что 1, Потому что 1...
+	                </p>
+	            </div>
+	            <div class="txtItem">
+	                <p class="txtItemMaster">
+	                    Потому что 1
+	                </p>
+	                <p class="txtItemSlave">
+	                    Потому что 1, Потому что 1, <br>Потому что 1, Потому что 1...
+	                </p>
+	            </div>
+	            <div class="txtItem">
+	                <p class="txtItemMaster">
+	                    Потому что 1
+	                </p>
+	                <p class="txtItemSlave">
+	                    Потому что 1, Потому что 1, <br>Потому что 1, Потому что 1...
+	                </p>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div class="things">
+	    <p class="headThings">Товары</p>
+	    <div class="filters">
+		<label for="filter1" class="filter">Все</label>
+		<label for="filter2" class="filter">Гироскутеры</label>
+		<label for="filter3" class="filter">Электросамокаты</label>
+		<label for="filter4" class="filter">Сигвеи</label>
+	    </div>
+	    <div class="thingsList">
+		<!--(div.item>(div.thingImg>img)+(p.thingName>{Название1})+(p.thingValue>{Цена: 3.14159})+(p.thingType>{Вид: электросамокат}))*9-->
+		    <input name="filter" type="radio" value="all" id="filter1" checked>
+		    <input name="filter" type="radio" value="giro" id="filter2">
+		    <input name="filter" type="radio" value="samo" id="filter3">
+		    <input name="filter" type="radio" value="sig" id="filter4">
+		<div class="item item1">
+		    <div class="thingImg"><img src="img/thing.png" alt="thing"></div>
+		    <p class="thingName">
+		        Название1
+		    </p>
+		    <p class="thingValue">
+		        Цена: 3.14159
+		    </p>
+		    <p class="thingType">
+		        Вид: электросамокат
+		    </p>
+		</div>
+		<div class="item item1">
+		    <div class="thingImg"><img src="img/thing.png" alt="thing"></div>
+		    <p class="thingName">
+		        Название1
+		    </p>
+		    <p class="thingValue">
+		        Цена: 3.14159
+		    </p>
+		    <p class="thingType">
+		        Вид: электросамокат
+		    </p>
+		</div>
+		<div class="item item2">
+		    <div class="thingImg"><img src="img/thing.png" alt="thing"></div>
+		    <p class="thingName">
+		        Название1
+		    </p>
+		    <p class="thingValue">
+		        Цена: 3.14159
+		    </p>
+		    <p class="thingType">
+		        Вид: гироскутер
+		    </p>
+		</div>
+		<div class="item item2">
+		    <div class="thingImg"><img src="img/thing.png" alt="thing"></div>
+		    <p class="thingName">
+		        Название1
+		    </p>
+		    <p class="thingValue">
+		        Цена: 3.14159
+		    </p>
+		    <p class="thingType">
+		        Вид: гироскутер
+		    </p>
+		</div>
+		<div class="item item3">
+		    <div class="thingImg"><img src="img/thing.png" alt="thing"></div>
+		    <p class="thingName">
+		        Название1
+		    </p>
+		    <p class="thingValue">
+		        Цена: 3.14159
+		    </p>
+		    <p class="thingType">
+		        Вид: сигвей
+		    </p>
+		</div>
+		<div class="item item1">
+		    <div class="thingImg"><img src="img/thing.png" alt="thing"></div>
+		    <p class="thingName">
+		        Название1
+		    </p>
+		    <p class="thingValue">
+		        Цена: 3.14159
+		    </p>
+		    <p class="thingType">
+		        Вид: электросамокат
+		    </p>
+		</div>
+		<div class="item item1">
+		    <div class="thingImg"><img src="img/thing.png" alt="thing"></div>
+		    <p class="thingName">
+		        Название1
+		    </p>
+		    <p class="thingValue">
+		        Цена: 3.14159
+		    </p>
+		    <p class="thingType">
+		        Вид: электросамокат
+		    </p>
+		</div>
+		<div class="item item1">
+		    <div class="thingImg"><img src="img/thing.png" alt="thing"></div>
+		    <p class="thingName">
+		        Название1
+		    </p>
+		    <p class="thingValue">
+		        Цена: 3.14159
+		    </p>
+		    <p class="thingType">
+		        Вид: электросамокат
+		    </p>
+		</div>
+		<div class="item item3">
+		    <div class="thingImg"><img src="img/thing.png" alt="thing"></div>
+		    <p class="thingName">
+		        Название1
+		    </p>
+		    <p class="thingValue">
+		        Цена: 3.14159
+		    </p>
+		    <p class="thingType">
+		        Вид: сигвей
+		    </p>
+		</div>
+	    </div>
+	</div>
+	<div class="twoBlocks">
+	    <div class="brands">
+		<p class="headBrands">Бренды, с которыми мы<br>сотрудничаем</p>
+	        <ul class="brandList">
+	            <li class="brandItem">
+	                Бренд1
+	            </li>
+	            <li class="brandItem">
+	                Бренд2
+	            </li>
+	            <li class="brandItem">
+	                Бренд3
+	            </li>
+	            <li class="brandItem">
+	                Бренд4
+	            </li>
+	            <li class="brandItem">
+	                Бренд5
+	            </li>
+	            <li class="brandItem">
+	                Бренд6
+	            </li>
+	        </ul>
+	    </div>
+	    <!--div.consul>(p.headConsul>{Наши консультанты})+div.consuls>(p.itemConsuls>{Зубенко Михаил Петрович - 22 года, холост, красноречие 100})*3-->
+	    <div class="consul">
+	        <p class="headConsul">
+	            Наши консультанты
+	        </p>
+	        <div class="consuls">
+	            <p class="itemConsuls">
+		    Зубенко Михаил Петрович -- 22 года, холост,<br> красноречие 100
+	            </p>
+	            <p class="itemConsuls">
+			Зубенко Михаил Петрович -- 22 года, холост,<br> красноречие 100
+	            </p>
+	            <p class="itemConsuls">
+			Зубенко Михаил Петрович -- 22 года, холост,<br> красноречие 100
+	            </p>
+	        </div>
+	    </div>
+	</div>
+	<div class="info">
+	    <p class="infoHead">Полезная информация</p>
+	    <div class="infoContent">
+		<div class="infoImg"><img src="img/info.png" alt="info"></div>
+		<p class="infoTxt">
+		Как ухаживать за электросамокатом. Чтобы ваш электросамокат не сломался каждый день смазывайте его... Продолжить чтение
+		</p>
+	    </div>
+	</div>
+	<div class="twoBlocksSecond">
+	    <div class="about">
+	        <p class="aboutHead">О нас</p>
+	        <ul class="aboutList">
+	            <li class="aboutItem">Работаем с 1724 года</li>
+	            <li class="aboutItem">Доставляем товар в разные точки мира (за ваш счёт)</li>
+	            <li class="aboutItem">Имеем приличный штат сотрудников, в который можете попасть вы</li>
+	        </ul>
+	    </div>
+	    <div class="sign">
+	        <p class="signHead">Подписаться!</p>
+	        <form class="signForm">
+	            <input class="inputName" type="text" value="Имя">
+	            <input class="inputEmail" type="email" value="Email">
+	            <input type="submit" value="Подписаться!" class="signButton">
+	        </form>
+	    </div>
+	</div>
+    </div>
+    <a href="#head" class="buttonUp"><p>Наверх</p></a>
+</body>
+</html>
